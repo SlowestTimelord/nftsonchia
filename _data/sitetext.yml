@@ -1,0 +1,200 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en-US:
+  header:
+    title: Marketplace independence, on-chain royalties, consistent provenance.
+    text: A new standard for NFTs
+    button: Why Chia?
+    buttonlink: "#features"
+
+  features:
+    title: "Better Tech for a Better Way"
+    text: "Chia's NFT1 standard is built with creators and collectors in mind."
+    section: features
+    list:
+      - title: "Marketplace Independence"
+        desc: "Chia enables true peer-to-peer trading through **Offer Files** with no counterparty risk."
+        icon: fas fa-store #find more at https://fontawesome.com/icons
+      - title: "On-chain Royalties"
+        desc: "Creator royalties are enforced on-chain when NFTs are traded trustlessly through **Offer Files**."
+        icon: fas fa-link
+      - title: "Consistent Provenance"
+        desc: "**Decentralized Identifiers (DIDs)** enable creator and owner provenance on-chain."
+        icon: fas fa-users
+      - title: "Digital Permanence"
+        desc: "Additional sources for digital files **can be appended to NFTs** with cryptographic integrity."
+        icon: fas fa-infinity #find more at https://fontawesome.com/icons
+      - title: "Licenses and Media"
+        desc: "Usage **licenses** and media support are part of the standard and not an after thought."
+        icon: fas fa-photo-video #find more at https://fontawesome.com/icons
+      - title: "True Ownership"
+        desc: "Chia's **coinset model** means true NFT ownership and not just a data record in a smart contract."
+        icon: fas fa-coins
+
+  portfolio:
+    title: "What makes Chia NFTs unique"
+    text: "Chia NFTs are unique."
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Ready for Takeoff"
+    text: "It's easy as 1-2-3 to dip your toes in the Chia NFT ecosystem"
+    section: get-started
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Download a Wallet"
+        year: "Step 1"
+        desc: "Get a wallet with NFT support. We recommend the [official Chia desktop client](https://www.chia.net/downloads/) but there are also [other wallets](https://chialinks.com/wallets/) across various platforms."
+        image: assets/img/timeline/download.png
+        alt: "Download a wallet"
+      - title: "Get some XCH"
+        year: "Step 2"
+        desc: "Chia is listed on [many exchanges](https://chialinks.com/exchanges/) and you can also on-ramp directly into the Chia DeFi ecosystem with the [Stably partnership](https://www.chia.net/buy-xch/)."
+        image: assets/img/timeline/exchange.jpg
+        alt: "Get some XCH"
+      - title: "Dive right in"
+        year: "Step 3"
+        desc: "Whether you're a creator or a collector, [explore the ecosystem](#explore) and discover a growing world."
+        image: assets/img/timeline/2.jpg
+        alt: "Dive right in"
+    end: 
+
+
+  collectors:
+    title: "Explore"
+    text: "Discover collections, trade peer-to-peer, true ownership."
+    section: explore
+    list:
+      - desc: "Explore and discover NFTs in the Chia ecosystem. Easily mint collections with [MintGarden Studio](https://mintgarden.io/mint)."
+        logo: "/assets/img/mintgarden-logo.png"
+        link: "https://mintgarden.io/"
+      - desc: "Search curated collections by traits and rarity. Showcase and share your collection."
+        logo: "/assets/img/farmersmarket-logo.png"
+        link: "https://farmersmarket.cc/"
+      - desc: "Buy and sell NFTs on a decentralized exchange. Also supports trading of Chia Asset Tokens."
+        logo: "/assets/img/dexie-logo2.png"
+        link: "https://dexie.space/nft"
+      - desc: "See NFT activity and insights on this Chia blockchain explorer."
+        logo: "/assets/img/spacescan-logo.png"
+        link: "https://www.spacescan.io/"
+      - desc: "Find more resources, links, and tools about the Chia blockchain and all its other innovations."
+        logo: "/assets/img/chialinks-logo.png"
+        link: "https://www.chialinks.com/"
+      - desc: "The Chia Friends NFT project community Discord. Hop in and get your questions answered!"
+        logo: "/assets/img/chiafriends-banner.png"
+        link: "https://discord.com/invite/ECAteZ2B6n"
+
+  creators:
+    title: "Get Creating"
+    text: "Mint collections, distribute, engage."
+    section: collectors
+    list:
+      - desc: "Prepare your assets and mint a collection with **MintGarden Studio**."
+        logo: "/assets/img/mintgarden-logo.png"
+        link: "https://mintgarden.io/mint"
+      - desc: ""
+        logo: "/assets/img/farmersmarket-logo.png"
+        link: "https://farmersmarket.cc/"
+      - desc: "List your NFTs on a decentralized exchange."
+        logo: "/assets/img/dexie-logo.png"
+        link: "https://dexie.space/nft"
+
+
+  about:
+    title: "Get Started"
+    text: "Download a Chia Wallet with NFT support to get started"
+    body: "Recommended: Official Chia client ([download](https://www.chia.net/downloads/))"
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "See it in action"
+    text: "Select projects from the ecosystem."
+    subtext: ""
+    section: examples
+    people:
+      - name: "Chia Friends"
+        role: "Chia Network Inc."
+        image: assets/img/projects/chiafriends-logo.png
+        social:
+          - url: https://twitter.com/chia_friends
+            icon: fab fa-twitter
+          - url: https://discord.com/invite/ECAteZ2B6n
+            icon: fab fa-discord
+          - url: https://chiafriends.xyz
+            icon: fas fa-globe
+      - name: "Monkeyzoo"
+        role: "Monkeyzoo"
+        image: assets/img/projects/monkeyzoo-logo.png
+        social:
+          - url: https://twitter.com/monkeyzoo
+            icon: fab fa-twitter
+          - url: https://discord.com/invite/YTCFshJNUj
+            icon: fab fa-discord
+          - url: https://www.monkeyzoo.net/
+            icon: fas fa-globe
+      - name: "BatGAN Mint Pass"
+        role: "Seth Jenks"
+        image: assets/img/projects/batgan-logo.png
+        social:
+          - url: https://twitter.com/BatGAN_art
+            icon: fab fa-twitter
+          - url: https://discord.com/invite/dyRfQ8gmxv
+            icon: fab fa-discord
+
+  # contact:
+  #   title: "Contact Us"
+  #   text: "Lorem ipsum or call 123456789"
+  #   section: contact
+  #   name: "Name*"
+  #   name-validation: "Please enter your name."
+  #   email: "Email*"
+  #   email-validation: "Please enter your email address."
+  #   phone: "Phone Number"
+  #   phone-validation: "Please enter your phone number."
+  #   message: "Message*"
+  #   message-validation: "Please enter a message."
+  #   subject: "Contact Form Submission"
+  #   submit: "Send Message"
+
+  # footer:
+  #   legal: "Privacy Policy"
+  #   social:
+  #     - url: https://twitter.com
+  #       icon: "fab fa-twitter"
+  #     - url: https://facebook.com
+  #       icon: "fab fa-facebook-f"
+  #     - url: https://linkedin.com
+  #       icon: "fab fa-linkedin-in"
+  #     - url: https://github.com/raviriley/agency-jekyll-theme
+  #       icon: "fab fa-github"
+  #     - url: https://instagram.com
+  #       icon: "fab fa-instagram"

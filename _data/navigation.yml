@@ -1,0 +1,24 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  nav:
+    - title: "Why Chia?"
+      section: features
+    - title: "Get Started"
+      section: get-started
+    - title: "Explore"
+      section: explore
+    - title: "Examples"
+      section: examples
+en-US:
+  <<: *DEFAULT_EN
+

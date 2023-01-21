@@ -1,0 +1,60 @@
+
+
+<!-- Creators -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].creators.section | default: "creators" }}">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].creators.title | default: "Creators" }}</h2>
+          {% if site.data.sitetext[site.locale].creators.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].creators.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+	  
+      <div class="row text-center">
+	  {% for creator in site.data.sitetext[site.locale].creators.list %}
+        <div class="col-md-4 creators">
+          <span class="logo">
+            <a href="{{ creator.link }}" target="_blank"><img src="{{ creator.logo }}" /></a>
+          </span>
+          <h4 class="creator-heading">{{ creator.title | markdownify }}</h4>
+          {% if creator.desc %}<div class="text-muted">{{ creator.desc | markdownify }}</div>{% endif %}
+        </div>
+	  {% endfor %}
+      </div>
+	  
+    </div>
+  </section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.creators.section | default: "creators" }}">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.creators.title | default: "Creators" }}</h2>
+        {% if site.data.sitetext.creators.text %}
+    <h3 class="section-subheading text-muted">{{ site.data.sitetext.creators.text }}</h3>
+    {% endif %}
+      </div>
+    </div>
+  
+    <div class="row text-center">
+  {% for creator in site.data.sitetext.creators.list %}
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="{{ creator.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="creator-heading">{{ creator.title | markdownify }}</h4>
+        {% if creator.desc %}<div class="text-muted">{{ creator.desc | markdownify }}</div>{% endif %}
+      </div>
+  {% endfor %}
+    </div>
+  
+  </div>
+</section>
+{% endif %}
+<!-- End Creators -->

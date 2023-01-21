@@ -1,0 +1,60 @@
+
+
+<!-- Collectors -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].collectors.section | default: "collectors" }}">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].collectors.title | default: "Collectors" }}</h2>
+          {% if site.data.sitetext[site.locale].collectors.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].collectors.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+	  
+      <div class="row text-center">
+	  {% for collector in site.data.sitetext[site.locale].collectors.list %}
+        <div class="col-md-4 collectors">
+          <span class="logo">
+            <a href="{{ collector.link }}" target="_blank"><img src="{{ collector.logo }}" /></a>
+          </span>
+          <h4 class="collector-heading">{{ collector.title | markdownify }}</h4>
+          {% if collector.desc %}<div class="text-muted">{{ collector.desc | markdownify }}</div>{% endif %}
+        </div>
+	  {% endfor %}
+      </div>
+	  
+    </div>
+  </section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.collectors.section | default: "collectors" }}">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.collectors.title | default: "Collectors" }}</h2>
+        {% if site.data.sitetext.collectors.text %}
+    <h3 class="section-subheading text-muted">{{ site.data.sitetext.collectors.text }}</h3>
+    {% endif %}
+      </div>
+    </div>
+  
+    <div class="row text-center">
+  {% for collector in site.data.sitetext.collectors.list %}
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="{{ collector.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="collector-heading">{{ collector.title | markdownify }}</h4>
+        {% if collector.desc %}<div class="text-muted">{{ collector.desc | markdownify }}</div>{% endif %}
+      </div>
+  {% endfor %}
+    </div>
+  
+  </div>
+</section>
+{% endif %}
+<!-- End Collectors -->
