@@ -1,14 +1,12 @@
 ---
-title: On-chain royalties
-subtitle: No debates here
+title: Marketplaces Optional
+subtitle: Chia enables P2P trading through Offer Files with no counterparty risk. Marketplaces optional.
 image: assets/img/portfolio/01-thumbnail.jpg
-alt: Shirts on a hanger
+alt: Marketplace Independence
 
 caption:
-  title: On-chain royalties
-  subtitle: No debates here
+  title: Marketplaces Optional
+  subtitle: Chia enables P2P trading through Offer Files with no counterparty risk. Marketplaces optional.
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
-Royalties on secondary sales are one of the most attractive promises of NFTs to digital artists but on other chains this is enforced by centralized marketplaces that can (and have) changed their royalty enforcement policies at any time. **In Chia, the enforcement of royalties is embedded at the individual smart coin level and are enforced on-chain on any sale using Offer Files.**
-
-Note that transfers (moving an NFT from one address to another without the exchange of another asset) do not have royalties enforced to allow users to organize their assets freely.
+Chia Offer Files are a trustless Peer-to-Peer mechanism to transact assets on the Chia blockchain without an intermediary party and with no counterparty risk. Offer Files also enforce royalties therefore there is no reliance on any middle parties (such as centralized marketplaces) to act as escrow. **Individuals can sell and trade their NFTs with others via any communication means** such as email, physical QR codes, social media, or [one of many DEXs and Offer Files discovery websites](https://chialinks.com/nfts/#marketplaces).

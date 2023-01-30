@@ -1,12 +1,12 @@
 ---
-title: Security
-subtitle: No contracts to hack
+title: Licenses and Media
+subtitle: Usage licenses and media support are part of the standard and not an after thought.
 image: assets/img/portfolio/05-thumbnail.jpg
 alt: 
 
 caption:
-  title: Security
-  subtitle: No contracts to hack
+  title: Licenses and Media
+  subtitle: Usage licenses and media support are part of the standard and not an after thought.
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Usage licenses and media support are part of the standard and not an after thought.

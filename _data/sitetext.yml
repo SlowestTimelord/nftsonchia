@@ -41,10 +41,10 @@ en-US:
         icon: fas fa-coins
 
   portfolio:
-    title: "What makes Chia NFTs unique"
-    text: "Chia NFTs are unique."
-    section: portfolio
-    closebutton: "Close Project"
+    title: "Better Tech for a Better Way"
+    text: "Chia's NFT1 standard is built with creators and collectors in mind."
+    section: features
+    closebutton: "Close"
 
   timeline:
     title: "Ready for Takeoff"
