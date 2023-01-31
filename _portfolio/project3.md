@@ -1,12 +1,12 @@
 ---
 title: Consistent Provenance
-subtitle: Decentralized Identifiers (DIDs) enable creator and owner provenance to be recorded permanently on chain.
+subtitle: Decentralized Identifiers (DIDs) enable creator and owner provenance on-chain.
 image: assets/img/portfolio/provenance.png
 alt: 
 
 caption:
   title: Consistent Provenance
-  subtitle: Decentralized Identifiers (DIDs) enable creator and owner provenance to be permanently recorded on chain.
+  subtitle: Decentralized Identifiers (DIDs) enable creator and owner provenance on-chain.
   thumbnail: assets/img/portfolio/provenance.png
 ---
 

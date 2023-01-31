@@ -10,5 +10,5 @@ caption:
   thumbnail: assets/img/portfolio/ownership.png
 ---
 
-In other chains that use an account model, NFT ownership is recorded in a smart contract which becomes a single point of failure. An exploited smart contract puts the entire collection at risk. With how the coinset model works in Chia, **each NFT is a separate smart coin and only the owner of that coin has the ability to spend it**.
+In other chains that use an account model, NFT ownership is recorded in a smart contract which becomes a single point of failure. An exploited smart contract puts the entire collection at risk. With how the coin set model works in Chia, **each NFT is a separate smart coin and only the owner of that coin has the ability to spend it**.
 

@@ -15,10 +15,12 @@ en: &DEFAULT_EN
       section: features
     - title: "Get Started"
       section: get-started
-    - title: "Explore"
-      section: explore
     - title: "Examples"
       section: examples
+    - title: "Explore"
+      section: explore
+    - title: "chia.net"
+      url: https://www.chia.net
 en-US:
   <<: *DEFAULT_EN
 
