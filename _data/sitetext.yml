@@ -23,13 +23,13 @@ en-US:
     list:
       - title: "Step 1. Download a Wallet"
         desc: "Get a wallet with NFT support. We recommend the [official Chia desktop client](https://www.chia.net/downloads/) but there are also [other wallets](https://chialinks.com/wallets/) across various platforms."
-        icon: fas fa-store #find more at https://fontawesome.com/icons
+        icon: fas fa-wallet #find more at https://fontawesome.com/icons
       - title: "Step 2. Get some XCH"
         desc: "Chia is listed on [many exchanges](https://chialinks.com/exchanges/) and you can also on-ramp directly into the Chia DeFi ecosystem with the [Stably partnership](https://www.chia.net/buy-xch/)."
-        icon: fas fa-link
+        icon: fas fa-leaf
       - title: "Step 3. Dive right in"
         desc: "Whether you're a creator or a collector, [explore the ecosystem](#explore) and discover a growing world."
-        icon: fas fa-users
+        icon: fas fa-binoculars
 
   portfolio:
     title: "Better Tech for a Better Way"
