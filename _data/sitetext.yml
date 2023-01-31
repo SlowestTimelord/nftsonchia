@@ -17,39 +17,30 @@ en-US:
     buttonlink: "#features"
 
   features:
+    title: "Ready for Takeoff"
+    text: "It's easy as 1-2-3 to dip your toes in the Chia NFT ecosystem."
+    section: get-started
+    list:
+      - title: "Step 1. Download a Wallet"
+        desc: "Get a wallet with NFT support. We recommend the [official Chia desktop client](https://www.chia.net/downloads/) but there are also [other wallets](https://chialinks.com/wallets/) across various platforms."
+        icon: fas fa-store #find more at https://fontawesome.com/icons
+      - title: "Step 2. Get some XCH"
+        desc: "Chia is listed on [many exchanges](https://chialinks.com/exchanges/) and you can also on-ramp directly into the Chia DeFi ecosystem with the [Stably partnership](https://www.chia.net/buy-xch/)."
+        icon: fas fa-link
+      - title: "Step 3. Dive right in"
+        desc: "Whether you're a creator or a collector, [explore the ecosystem](#explore) and discover a growing world."
+        icon: fas fa-users
+
+  portfolio:
     title: "Better Tech for a Better Way"
     text: "Chia's NFT1 standard is built with creators and collectors in mind."
     section: features
-    list:
-      - title: "Marketplace Independence"
-        desc: "Chia enables true peer-to-peer trading through **Offer Files** with no counterparty risk."
-        icon: fas fa-store #find more at https://fontawesome.com/icons
-      - title: "On-chain Royalties"
-        desc: "Creator royalties are enforced on-chain when NFTs are traded trustlessly through **Offer Files**."
-        icon: fas fa-link
-      - title: "Consistent Provenance"
-        desc: "**Decentralized Identifiers (DIDs)** enable creator and owner provenance on-chain."
-        icon: fas fa-users
-      - title: "Digital Permanence"
-        desc: "Additional sources for digital files **can be appended to NFTs** with cryptographic integrity."
-        icon: fas fa-infinity #find more at https://fontawesome.com/icons
-      - title: "Licenses and Media"
-        desc: "Usage **licenses** and media support are part of the standard and not an after thought."
-        icon: fas fa-photo-video #find more at https://fontawesome.com/icons
-      - title: "True Ownership"
-        desc: "Chia's **coinset model** means true NFT ownership and not just a data record in a smart contract."
-        icon: fas fa-coins
-
-  portfolio:
-    title: "What makes Chia NFTs unique"
-    text: "Chia NFTs are unique."
-    section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "Ready for Takeoff"
     text: "It's easy as 1-2-3 to dip your toes in the Chia NFT ecosystem"
-    section: get-started
+    section: examples
     # left is the default
     #start_align: "left"
     events:
