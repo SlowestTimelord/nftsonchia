@@ -1,13 +1,13 @@
 ---
 title: Consistent Provenance
 subtitle: Decentralized Identifiers (DIDs) enable creator and owner provenance to be recorded permanently on chain.
-image: assets/img/portfolio/03-thumbnail.jpg
+image: assets/img/portfolio/provenance.png
 alt: 
 
 caption:
   title: Consistent Provenance
   subtitle: Decentralized Identifiers (DIDs) enable creator and owner provenance to be permanently recorded on chain.
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  thumbnail: assets/img/portfolio/provenance.png
 ---
 
 Decentralized Identifier (DID) Profiles in Chia are a way for creators and collectors to identify themselves online. A DID can optionally be associated and verified with external linkages such as social media accounts and other real-world identifiers. **This allows creators to attach provenance to the history and origin of an NFT to distinguish authentic collections from copycats.**
